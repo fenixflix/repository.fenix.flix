@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repo.fenix-evolution" name="Repositorio Fenix Evolution" version="0.0.2" provider-name="fenixEvolution">
+	<extension point="xbmc.addon.repository" name="Repositorio Fenix Evolution">
+		<info compressed="false">http://raw.github.com/sr-alderson-2019/repo.fenix-evolution/master/addons.xml</info>
+		<checksum>http://raw.github.com/sr-alderson-2019/repo.fenix-evolution/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/sr-alderson-2019/repo.fenix-evolution/master/addons/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>TV [COLOR firebrick]l[/COLOR] FILMES [COLOR fubrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANCAMENTOS [COLOR firebrick]l[/COLOR] SD [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] 4K [COLOR firebrick]l[/COLOR] FENIX  FILMES DO CINEMA PARA A SUA CASA [COLOR firebrick]l[/COLOR]</summary>
+		<description>O autor nao e responsavel pelo uso deste addon. O autor nao e responsavel pelo conteudo encontrado usando este addon. O autor nao hospeda nem possui nenhum conteudo encontrado neste complemento. O autor nao e de forma alguma afiliado a Kodi, a Team Kodi ou a XBMC Foundation. Este e um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a secao 107, que promove a liberdade de expressao, permitindo o uso nao licenciado de obras protegidas por direitos autorais.
+
+[B][COLOR firebrick]FENIX[/COLOR] DO CINEMA PARA A SUA CASA [COLOR firebrick][B]l[/COLOR][/B]</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
