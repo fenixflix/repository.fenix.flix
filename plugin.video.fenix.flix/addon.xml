@@ -36,14 +36,16 @@
 [COLOR firebrick]l[/COLOR] O autor não hospeda nem possui nenhum conteúdo encontrado neste addon. O autor não é responsável pelo uso e pelo conteúdo encontrado neste addon [COLOR firebrick]l[/COLOR]
 
 l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FHD [COLOR firebrick]l[/COLOR]</description>
-    <news>[COLOR firebrick]l[/COLOR] Atualização v4.6.1 [COLOR firebrick]l[/COLOR]
+    <disclaimer lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
+	<website>https://www.fenixflix.ml/</website>
+    <email>fenixflix@feixflix.tk</email>
+	<news>[COLOR firebrick]l[/COLOR] Atualização v4.6.1 [COLOR firebrick]l[/COLOR]
 
 [COLOR firebrick]l[/COLOR] Melhoria no carregameto do addon [COLOR firebrick]l[/COLOR]
      [COLOR firebrick]l[/COLOR] Melhoria na Segurança [COLOR firebrick]l[/COLOR]
        [COLOR firebrick]l[/COLOR] Correção de Bugs [COLOR firebrick]l[/COLOR]
 
           [B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]</news>
-	<disclaimer lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
     <platform>all</platform>
       <assets>
       	<icon>icon.png</icon>
