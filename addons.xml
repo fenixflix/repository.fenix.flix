@@ -1,6 +1,66 @@
-<addon id="plugin.video.fenix" 
-       name="[B][COLOR firebrick]FENIX[/COLOR][/B]" 
-       version="2.5.0" 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="KeltecMP.repository" name="[B][COLOR gold]Repositorio[/COLOR]: [COLOR blue]KelTecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="0.0.7" provider-name="Team Ezequiel KelTec">
+	<extension point="xbmc.addon.repository" name="KelTecMP IPTV Repo">
+		<info compressed="false">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/Plugins</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio Oficial KelTecMP IPTV</summary>
+		<description>Repositorio Oficial KelTecMP IPTV - Proibido reproducao //Grupo Facebook KeltecMP IPTV https://www.facebook.com/groups/KELTEC.MP/</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.program.AresVikings18" name=" [B][COLOR orange]Ares Vikings Wizard[/COLOR][/B]" version="1.13" provider-name="[B][COLOR red]Pio[/COLOR][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ares Vikings Wizard</summary>
+    <description lang="en">.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.keltecmpleiawizard" name="KelTecMP Leia Wizard Builds" version="0.0.5" provider-name="Team Ezequiel KeltecMP">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">KelTecMP Builds</summary>
+    <description lang="en">Instalador KelTecMP Wizard, Para Todas as VersÃµes do Kodi, nÃ£o aceite ImitaÃ§Ãµes.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.f4mTester" version="2.7.9" name="f4mTester" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.7.9"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.fenix.flix"
+       name="[B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]"
+       version="4.6.1"
        provider-name="Alderson">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -8,30 +68,42 @@
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.httplib2"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver"/>
-    <import addon="script.module.simplejson"/>
+    <import addon="script.module.simplejson" />
     <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>	
+    <import addon="script.module.metahandler" version="2.5.1"/>
 	<import addon="script.module.livestreamer" optional="true"/>
-  </requires>
+
+   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
+	<extension point="xbmc.addon.repository" name="Repositorio Fenix Flix">
+		<info compressed="false">https://fenix-flix.000webhostapp.com/Repo.Fenix.Flix/addons.xml</info>
+		<checksum>https://fenix-flix.000webhostapp.com/Repo.Fenix.Flix/addons.xml.md5</checksum>
+		<datadir zip="true">https://fenix-flix.000webhostapp.com/Repo.Fenix.Flix/Plugins</datadir>
+	</extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">TV [COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANCAMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD [COLOR firebrick]l[/COLOR] 4K [COLOR firebrick]l[/COLOR]</summary>
-	
-	<description lang="en">O autor não é responsável pelo uso deste addon. O autor não é responsável pelo conteúdo encontrado usando este addon. O autor não hospeda nem possui nenhum conteúdo encontrado neste complemento.
+    <summary lang="en">TV [COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANÃ‡AMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD</summary>
 
-[COLOR firebrick]FENIX[/COLOR] DO CINEMA PARA A SUA CASA [COLOR firebrick][B]l[/COLOR][/B]</description>
-	<disclaimer lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
+	<description lang="en">[COLOR firebrick]l[/COLOR] TV [COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANÃ‡AMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD [COLOR firebrick]l[/COLOR]
+[COLOR firebrick]l[/COLOR] O autor nÃ£o hospeda nem possui nenhum conteÃºdo encontrado neste addon. O autor nÃ£o Ã© responsÃ¡vel pelo uso e pelo conteÃºdo encontrado neste addon [COLOR firebrick]l[/COLOR]
+
+l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FHD [COLOR firebrick]l[/COLOR]</description>
+    <news>[COLOR firebrick]l[/COLOR] AtualizaÃ§Ã£o v4.6.1 [COLOR firebrick]l[/COLOR]
+
+[COLOR firebrick]l[/COLOR] Melhoria no carregameto do addon [COLOR firebrick]l[/COLOR]
+     [COLOR firebrick]l[/COLOR] Melhoria na SeguranÃ§a [COLOR firebrick]l[/COLOR]
+       [COLOR firebrick]l[/COLOR] CorreÃ§Ã£o de Bugs [COLOR firebrick]l[/COLOR]
+
+          [B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]</news>
+	<disclaimer lang="en">O autor nÃ£o Ã© de forma alguma afiliado Ã  Kodi, Ã  Team Kodi ou Ã  XBMC Foundation. Este Ã© um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seÃ§Ã£o 107, que promove a liberdade de expressÃ£o, permitindo o uso nÃ£o licenciado de obras protegidas por direitos autorais.</disclaimer>
     <platform>all</platform>
-	<website/>
-        <video_guide></video_guide>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
       <assets>
       	<icon>icon.png</icon>
     	<fanart>fanart.jpg</fanart>
@@ -42,17 +114,73 @@
   </extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.fenix.evolution" name="[COLOR firebrick]Fenix[/COLOR][COLOR white] Repo[/COLOR]" version="1.0.0" provider-name="Alderson">
-	<extension point="xbmc.addon.repository" name="Repositorio Fenix Evolution">
-		<info compressed="false">http://raw.github.com/sr-alderson-2019/repo.fenix-evolution/master/addons.xml</info>
-		<checksum>http://raw.github.com/sr-alderson-2019/repo.fenix-evolution/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/sr-alderson-2019/repo.fenix-evolution/master/addons/</datadir>
+<addon id="plugin.video.gdrive" version="8.866" name="gdrive" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image programs</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>OuÃ§a mÃºsica, assista a vÃ­deos e veja fotos da sua conta do Google Drive</summary>
+        <description>Reproduz mÃºsicas e vÃ­deos da sua conta do Google Drive. NÃ£o Ã© afiliado ao Google.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repo.vikings" name="[B][COLOR yellow].Vikings  [COLOR orange]Repo[/B][/COLOR]" version="1.02" provider-name="Vikings Builds by @	Pio">">
+	<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="plugin.video.youtube" version="5.2.1" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer"/>
+    <import addon="script.module.pyamf"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.addon.signals" version="0.0.1"/>
+	<import addon="script.module.youtube.dl"/>
+
+  </requires>
+  <extension point="xbmc.addon.repository" name="Vikings Repository">
+		<info compressed="false">http://raw.github.com/vikingsbuild/repo.vikings/master/addons.xml</info>
+		<checksum>http://raw.github.com/vikingsbuild/repo.vikings/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/vikingsbuild/repo.vikings/master/addons/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-        <description>Repositorio Oficial com os arquivos de instalacao e funcionamento do addon Fenix Evolution - [COLOR firebrick]FENIX EVOLUTION[/COLOR] DO CINEMA PARA A SUA CASA [COLOR firebrick][B]l[/COLOR][/B]</description>
-		<disclaimer lang="en">O autor não é responsável pelo uso deste addon. O autor não é responsável pelo conteúdo encontrado usando este addon. O autor não hospeda nem possui nenhum conteúdo encontrado neste complemento.</disclaimer>
+		<summary>Repositorio Vikings</summary>
+		<description>Repositorio oficial Vikings Build - Proibido reproducao sem previa autorizacao</description>
+		<news>
+	Somente Addons TOP, nÃ£o incluimos "PINDURICALHOS"... somente ADDONS atualizados constantemente!
+	Os addons que serÃ¡ instalado nÃ£o hospeda nem possui nenhum conteÃºdo. O autor nÃ£o Ã© responsÃ¡vel pelo uso e pelo conteÃºdo encontrado usando este addon
+</news>
+
+		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.8" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Proxy for f4m</summary>
+        <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+    </extension>
 </addon>
 </addons>
