@@ -131,7 +131,7 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FH
     </extension>
 </addon>
 
-<addon id="repo.vikings" name="[B][COLOR yellow].Vikings  [COLOR orange]Repo[/B][/COLOR]" version="1.02" provider-name="Vikings Builds by @	Pio">">
+<addon id="repo.vikings" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repo[/B][/COLOR]" version="1.08.1" provider-name="Vikings Builds by @Pio">">
 	<requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
