@@ -61,7 +61,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.keltecmpleiawizard" name="KelTecMP Leia Wizard Builds" version="0.0.5" provider-name="Team Ezequiel KeltecMP">
+<addon id="plugin.program.keltecmpleiawizard" name="KelTecMP Leia Wizard Builds" version="0.0.6" provider-name="Team Ezequiel KeltecMP">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
