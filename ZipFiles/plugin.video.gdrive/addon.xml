@@ -7,8 +7,8 @@
         <provides>video audio image programs</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Ouça música, assista a vídeos e veja fotos da sua conta do Google Drive</summary>
-        <description>Reproduz músicas e vídeos da sua conta do Google Drive. Não é afiliado ao Google.</description>
+        <summary>Ouca musica, assista a vídeos e veja fotos da sua conta do Google Drive</summary>
+        <description>Reproduz musicas e videos da sua conta do Google Drive. Nao e afiliado ao Google.</description>
         <platform>all</platform>
     </extension>
 </addon>
