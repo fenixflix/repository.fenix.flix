@@ -30,7 +30,7 @@
 		<datadir zip="true">https://raw.githubusercontent.com/fenixflix/repository.fenix.flix/master/ZipFiles</datadir>
 	</extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">TV [COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANÇAMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD</summary>
+    <summary lang="en">TV [COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANCAMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD</summary>
 	
 	<description lang="en">[COLOR firebrick]l[/COLOR] TV [COLOR firebrick]l[/COLOR] FILMES [COLOR firebrick]l[/COLOR] SERIES [COLOR firebrick]l[/COLOR] DESENHOS [COLOR firebrick]l[/COLOR] ANIMES [COLOR firebrick]l[/COLOR] LANÇAMENTOS [COLOR firebrick]l[/COLOR] HD [COLOR firebrick]l[/COLOR] FHD [COLOR firebrick]l[/COLOR]
 [COLOR firebrick]l[/COLOR] O autor nao hospeda nem possui nenhum conteudo encontrado neste addon. O autor nao e responsavel pelo uso e pelo conteudo encontrado neste addon [COLOR firebrick]l[/COLOR]
@@ -41,7 +41,7 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FH
     <email>fenixflix@fenixflix.tk</email>
 	<news>[COLOR firebrick]l[/COLOR] Atualizacao v4.6.1 [COLOR firebrick]l[/COLOR]
 
-[COLOR firebrick]l[/COLOR] Nova hospedagen do Addon [COLOR firebrick]l[/COLOR]
+[COLOR firebrick]l[/COLOR] Mais estavel na abertura [COLOR firebrick]l[/COLOR]
 [COLOR firebrick]l[/COLOR] Melhoria na Seguranca [COLOR firebrick]l[/COLOR]
 [COLOR firebrick]l[/COLOR] Correcao de Bugs [COLOR firebrick]l[/COLOR]
 
