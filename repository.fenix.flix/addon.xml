@@ -6,8 +6,13 @@
 		<datadir zip="true">https://raw.githubusercontent.com/fenixflix/repository.fenix.flix/master/ZipFiles</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-        <description>[COLOR firebrick][B]l[/COLOR][/B] Repositorio Oficial de instalacao de plugins, Builds e do addon [COLOR firebrick][B]Fenix[/COLOR][/B] Flix [COLOR firebrick][B]l[/COLOR][/B]</description>
-		<news>[B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B] - O Melhor do Cinema no seu Kodi</news>
+	    <summary>Repositorio Oficial Fenix Flix</summary>
+        <description>[COLOR firebrick][B]l[/COLOR][/B] Repositorio oficial de instalacao de plugins e do addon [COLOR firebrick][B]Fenix[/COLOR][/B] Flix [COLOR firebrick][B]l[/COLOR][/B]
+        [COLOR firebrick][B]l[/COLOR][/B] Proibido reproducao sem previa autorizacao [COLOR firebrick][B]l[/COLOR][/B]</description>
+		<news>[COLOR firebrick]l[/COLOR] O Melhor do Cinema no seu Kodi [COLOR firebrick]l[/COLOR]
+
+[B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]
+www.fenixflix.ml</news>
 		<disclaimer lang="en">O addon que sera instalado nao hospeda nem possui nenhum conteudo. O autor nao e responsavel pelo uso e pelo conteudo encontrado usando este addon.</disclaimer>
 		<platform>all</platform>
 		<website>https://www.fenixflix.ml/</website>
