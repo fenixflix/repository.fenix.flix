@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="KeltecMP.repository" name="[B][COLOR gold]Repositorio[/COLOR]: [COLOR blue]KelTecMP[/COLOR] [COLOR red]IPTV[/COLOR][/B]" version="0.0.7" provider-name="Team Ezequiel KelTec">
-	<extension point="xbmc.addon.repository" name="KelTecMP IPTV Repo">
-		<info compressed="false">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Jhonny-lima/Reposit-rio-KelTec-MP/master/Plugins</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Repositorio Oficial KelTecMP IPTV</summary>
-		<description>Repositorio Oficial KelTecMP IPTV - Proibido reproducao //Grupo Facebook KeltecMP IPTV https://www.facebook.com/groups/KELTEC.MP/</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="One.repo" name="[B][COLOR white]Repositorio[/COLOR]: [COLOR aquamarine]OnePlay[/COLOR][/B]" version="1.03" provider-name="Team [COLOR aquamarine]OnePlay[/COLOR]">
 	<requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -95,7 +82,7 @@
 
 <addon id="plugin.video.fenix.flix"
        name="[B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]"
-       version="4.6.1"
+       version="4.6.2"
        provider-name="Alderson">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -133,9 +120,9 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FH
     <disclaimer lang="en">O autor nao e de forma alguma afiliado a Kodi, a Team Kodi ou a XBMC Foundation. Este e um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a secao 107, que promove a liberdade de expressao, permitindo o uso nao licenciado de obras protegidas por direitos autorais.</disclaimer>
 	<website>https://www.fenixflix.ml/</website>
     <email>fenixflix@fenixflix.tk</email>
-	<news>[COLOR firebrick]l[/COLOR] Atualizacao v4.6.1 [COLOR firebrick]l[/COLOR]
+	<news>[COLOR firebrick]l[/COLOR] Atualizacao v4.6.2 [COLOR firebrick]l[/COLOR]
 
-[COLOR firebrick]l[/COLOR] Mais estavel na abertura [COLOR firebrick]l[/COLOR]
+[COLOR firebrick]l[/COLOR] Mais estave na abertura [COLOR firebrick]l[/COLOR]
 [COLOR firebrick]l[/COLOR] Melhoria na Seguranca [COLOR firebrick]l[/COLOR]
 [COLOR firebrick]l[/COLOR] Correcao de Bugs [COLOR firebrick]l[/COLOR]
 
