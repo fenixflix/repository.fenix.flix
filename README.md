@@ -1,2 +1,2 @@
-Repositorio ☫ Fênix Flix
+Repositório ☫ Fênix Flix
 ===========================
