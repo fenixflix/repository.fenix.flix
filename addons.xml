@@ -170,7 +170,7 @@ www.fenixflix.ml</news>
 		<disclaimer lang="en">O addon que sera instalado nao hospeda nem possui nenhum conteudo. O autor nao e responsavel pelo uso e pelo conteudo encontrado usando este addon.</disclaimer>
 		<platform>all</platform>
 		<website>https://www.fenixflix.ml/</website>
-        <email>fenixflix@fenixflix.tk</email>
+        <email></email>
         <video_guide></video_guide>
         <reuselanguageinvoker>false</reuselanguageinvoker>
       <assets>
