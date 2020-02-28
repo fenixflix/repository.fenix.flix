@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-ids = input('Digite o codigo do Filme na TMDB: ')
+ids = input('Digite o codigo do Filme do TMDB e de Enter: ')
 ids2 = str(ids)
 #link = input('Digite o Link do Filme: ')
 
@@ -34,6 +34,11 @@ t2 = sinopse2.replace('[<meta content="','').replace('" property="og:description
 t3 = thumb2.replace('[<meta content="','').replace('" property="og:image"/>]','').replace('" property="og:image"/>, <meta content="','\n').replace('','')
 t4 = fanart4.replace('data-src="','')
 
+print("<channels></channels>")
+print("<channel>")
+print("<name>"+t1+"</name>")
+print("<thumbnail>"+t3+"</thumbnail>")
+print("\n")
 print("<item>")
 print("<title>[B]"+t1+" l [COLOR orange]IMDb XX[/COLOR] l[/B]</title>")
 print("<link>plugin://plugin.video.youtube/play/?video_id=$texto=Trailer</link>")
@@ -41,5 +46,14 @@ print("<link>plugin://plugin.video.gdrive?mode=streamURL&amp;url=https://drive.g
 print("<thumbnail>"+t3+"</thumbnail>")
 print("<fanart>"+t4+"</fanart>")
 print("<info>[B][COLOR firebrick]l[/COLOR][/B] "+t2+" [B][COLOR firebrick]l[/COLOR][/B]</info>")
-print("<genre>""</genre>")
 print("</item>")
+print("\n")
+print("<item>")
+print("<title>Trailer</title>")
+print("<trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=</trailer>")
+print("<thumbnail></thumbnail>")
+print("<fanart></fanart>")
+print("<info></info>")
+print("</item>")
+print("</channel>")
+print("\n\n")
