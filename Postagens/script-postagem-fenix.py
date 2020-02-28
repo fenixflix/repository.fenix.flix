@@ -42,6 +42,6 @@ print("<link>plugin://plugin.video.gdrive?mode=streamURL&amp;url=https://drive.g
 print("<thumbnail>"+t3+"</thumbnail>")
 print("<fanart>"+t4+"</fanart>")
 print("<info>[B][COLOR firebrick]l[/COLOR][/B] "+t2+" [B][COLOR firebrick]l[/COLOR][/B]</info>")
-print("<genre></genre>")
+print("<genre>""</genre>")
 print("</item>")
 print("\n")
