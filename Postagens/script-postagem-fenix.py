@@ -34,7 +34,6 @@ t2 = sinopse2.replace('[<meta content="','').replace('" property="og:description
 t3 = thumb2.replace('[<meta content="','').replace('" property="og:image"/>]','').replace('" property="og:image"/>, <meta content="','\n').replace('','')
 t4 = fanart4.replace('data-src="','')
 
-print("\n")
 print("<item>")
 print("<title>[B]"+t1+" l [COLOR orange]IMDb XX[/COLOR] l[/B]</title>")
 print("<link>plugin://plugin.video.youtube/play/?video_id=$texto=Trailer</link>")
@@ -44,4 +43,3 @@ print("<fanart>"+t4+"</fanart>")
 print("<info>[B][COLOR firebrick]l[/COLOR][/B] "+t2+" [B][COLOR firebrick]l[/COLOR][/B]</info>")
 print("<genre>""</genre>")
 print("</item>")
-print("\n")
