@@ -9,7 +9,7 @@ import re
 
 ids = input('Digite o codigo do Filme do TMDB e de Enter: ')
 ids2 = str(ids)
-#link = input('Digite o Link do Filme: ')
+link = input('Digite o Link do Filme do GDrive e de Enter: ')
 
 headers = {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36'}
 url = "https://www.themoviedb.org/movie/"+ids2+"?language=pt-BR"
