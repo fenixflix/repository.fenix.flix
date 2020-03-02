@@ -12,7 +12,7 @@ ids2 = str(ids)
 link = input('Digite o Link do Filme do GDrive e de Enter: ')
 
 headers = {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36'}
-url = "https://www.themoviedb.org/movie/"+ids2+"?language=pt-BR"
+url = "https://www.imdb.com/?ref_=nv_home"+ids2+"?language=pt-BR"
 
 pagina_de_busca2 = requests.get(url,headers=headers)
 soup = BeautifulSoup(pagina_de_busca2.text, "html.parser")
