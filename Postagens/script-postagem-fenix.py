@@ -12,8 +12,8 @@ def debrid_format(link):
     print("--------Digite 1 Google Drive -------------")
     print("--------Digite 2 Youtube ------------------")
     #print("--------Digite 3 Dailymotion --------------")
-    print("--------Digite 4 Playthis -----------------")
-    print("--------Digite 5 Elementum -----------------")
+    #print("--------Digite 4 Playthis -----------------")
+    #print("--------Digite 5 Elementum -----------------")
     print("\n\n")
 
     opcao = input('Digite uma opção: ')
