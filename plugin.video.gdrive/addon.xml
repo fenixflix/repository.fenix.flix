@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.gdrive" version="8.866" name="gdrive" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image programs</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Ouca musica, assista a videos e veja fotos da sua conta do Google Drive</summary>
+        <description>Reproduz musicas e videos da sua conta do Google Drive. Nao e afiliado ao Google.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
