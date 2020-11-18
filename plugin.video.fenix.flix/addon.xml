@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.fenix.flix"
        name="[B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]" 
-       version="4.7.5"
+       version="4.7.6"
        provider-name="Team Fênix Flix">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
@@ -42,10 +42,10 @@ l [COLOR firebrick]FENIX[/COLOR] FLIX - O MELHOR DO CINEMA NO SEU KODI - 100% FH
     <disclaimer lang="en">O autor nao e de forma alguma afiliado a Kodi, a Team Kodi ou a XBMC Foundation. Este e um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a secao 107, que promove a liberdade de expressao, permitindo o uso nao licenciado de obras protegidas por direitos autorais.</disclaimer>
 	<website>www.fenixflix.ml</website>
     <email></email>
-	<news>[COLOR firebrick]l[/COLOR] Atualizacao v4.7.5 [COLOR firebrick]l[/COLOR]
+	<news>[COLOR firebrick]l[/COLOR] Atualizacao v4.7.6 [COLOR firebrick]l[/COLOR]
 
-[COLOR firebrick]l[/COLOR] Adicionado all infos em todas as categorias [COLOR firebrick]l[/COLOR]
-[COLOR firebrick]l[/COLOR] Adicionado Filmes e Series Torrent [COLOR firebrick]l[/COLOR]
+[COLOR firebrick]l[/COLOR] Adicionado Data Base (IMDb TMDb) nas categorias [COLOR firebrick]l[/COLOR]
+[COLOR firebrick]l[/COLOR] Filmes, Series e Desenhos (Somente Dublados) [COLOR firebrick]l[/COLOR]
 [COLOR firebrick]l[/COLOR] Só Conteudos em HD e FHD [COLOR firebrick]l[/COLOR]
 
 [B][COLOR firebrick]FENIX[/COLOR] [COLOR white]FLIX[/COLOR][/B]
